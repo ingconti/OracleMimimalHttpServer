@@ -1,0 +1,80 @@
+UFS 01 - Sistemi Operativi e gestione della concorrenza
+Durata in ore:
+64
+Obiettivi:
+L'UF è progettata in modo tale da fornire la conoscenza e le basi per poter operare in autonomia su diversi sistemi operativi, utilizzandone il linguaggio di scripting specifico e sapersi muovere all'interno del SO sia come utilizzatore finale che come programmatore di nuove procedure per automatizzarne la gestione. L'UF ha come obiettivi principali quello di fornire le conoscenze che sono alla base della teoria dei Sistemi Operativi come gestione della memoria, File System, Processi e Risorse, e conoscenze teorico/pratiche sulle tecniche di programmazione concorrente. L'UF fornisce altresì le basi teorico/pratiche sulle architetture hardware e software dei sistemi di elaborazione e della rappresentazione dei dati e dell'informazione. Le esercitazioni sviluppate ed eseguite in ambiente LINUX e Powershell Windows consistono in piccole applicazioni di programmazione concorrente implementate in linguaggio Java e/o C.
+Lingua straniera:
+NO
+Contenuti:
+1. Base numerica binaria e esadecimale, conversioni nelle diverse basi, operazioni di aritmetica binaria (addizione, sottrazione, complemento a 1 e a 2)
+2. Che cos’è un sistema operativo: ruolo, funzionalità e struttura
+3. Evoluzione dei sistemi operativi: batch, multiprogrammazione, time-sharing
+4. Richiami sul funzionamento di un elaboratore: interruzioni e loro gestione, I/O, modi di funzionamento single e dual, system call
+5. Struttura: sistemi monolitici e modulari, sistemi stratificati, macchina virtuale
+6. Organizzazione e funzionalità del sistema operativo UNIX/Linux/Windows
+7. Gestione del File System
+8. Gestione della Memoria e memoria virtuale
+9. Processi e Risorse, Calcolo Parallelo e Distribuito
+10. La concorrenza: Il modello a processi; Processi sequenziali e paralleli, I Thread
+11. Elaborazione sequenziale e concorrente, La Concorrenza tra processi
+12. Scheduling della CPU e Algoritmi di scheduling: sincronizzazione e comunicazione tra processi
+13. Sezione critica e mutua esclusione
+14. I semafori, produttori/consumatori, lettori/scrittori, deadlock, monitor e scambio di messaggi
+15. Comandi fondamentali di Linux e bash scripting
+16. Comandi fondamentali di dos/PowerShell scripting
+
+
+---------
+
+
+
+Modulo di Java:
+UFS 05 - Programmazione in Java e strumenti per lo sviluppo
+Durata in ore:
+112
+Obiettivi:
+L'Unità Formativa si prefigge l’obiettivo di far acquisire le basi della programmazione imperativa in Java 
+con l’insegnamento dei concetti alla base dei linguaggi di programmazione ad alto livello focalizzandosi 
+sul paradigma imperativo e fatti sperimentare con l’implementazione di semplici algoritmi mirati. 
+Si prevede nel dettaglio di fornire: 1 Struttura logica di un elaboratore e codifica dell'informazione. 
+Gerarchia dei linguaggi di programmazione, compilatori e interpreti, sintassi e semantica del linguaggio. 
+La Java Virtual Machine. Algoritmi e programmi. Tipi di dati primitivi. Variabili, dichiarazioni e assegnamenti. 
+Espressioni e valutazione. Type checking. Stringhe. Input/Output da tastiera/su schermo. 
+Strutture di controllo: sequenza, selezione, iterazione. Array di tipi primitivi.
+Metodi di istanza e di classe, definizione ed invocazione. 
+Il concetto di reference: cenni alla gestione della memoria in Java (heap, stack e loro uso durante l’esecuzione dei programmi).
+Array di reference. Metodi di classe con tipi di dati complessi: definizione e invocazione.
+
+1. Introduzione
+2. Il mondo Java: caratteristiche e vantaggi
+3. Ambiente di sviluppo JVM,JDK...
+4. Variabili: Tipi di dati primitivi, operatori matematici, di confronto e booleani
+5. Istruzioni condizionali e cicli iterativi
+6. Array e Stringhe
+7. Input / Output
+8. Programmazione Object Oriented
+9. Classi: definizione attributi e metodi di classe con costruttore
+10. Introduzione alla programmazione ad oggetti e progettazione (OO)
+11. Ereditarietà e sue applicazioni
+12. Classi e metodi abstract
+13. Interfacce e loro impiego
+14. Polimorfismo e sue applicazioni pratiche
+15. Vettori: array dinamici
+16. Gestione delle eccezioni
+17. Lamda expression
+18. Gestione di Input/Output in Java (gli stream)
+19. Network e Database
+20. Swing e librerie per sviluppa applicazioni Desktop
+21. Paradigma client/server e protocolli usati
+22. Richieste HTTP
+23. Invocare servizi Web e richieste REST
+24. Gestione del formato JSON
+25. Richiami Database e DBMS ed uso di MySQL
+26. Ripasso interrogazioni SQL
+27. Uso del DB in Java con JDBC
+
+--
+Dott. Antonio Giovanni Lezzi
+Email: a.lezzi@itsrizzoli.it
+----
+
