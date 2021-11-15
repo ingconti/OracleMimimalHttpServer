@@ -1,0 +1,25 @@
+TRACCIA LAVORO LEZIONE 3
+
+2 H
+si usi lo strumento di editng che piu aggrada (notepad, word.. PPT etc...)
+
+Nota: si raccomanda di non copiare, il senso degli esercizi e' di verificare da vi stessi
+la preparazione.
+
+domande:
+
+1) convertire, indicando i passaggi da base 10 a Binario:
+		34
+		12
+		
+		
+2) descrivere (max 2 frasi) i passaggi / proprieta della conversione da Binario a HEX
+
+3) dare uan definizione di S.O.
+
+4) dare una definizione di Kernel
+
+5) elencare alcune tipi di s.o.
+
+
+ 
