@@ -1,9 +1,14 @@
 package org.example;
 
 // https://docs.oracle.com/en/java/javase/12/docs/api/jdk.httpserver/com/sun/net/httpserver/package-summary.html
+
 // sample invocation:
+
+// POST:
 // curl -X POST "http://127.0.0.1:8000" -d "gimmeanswer=please&id=100"
-// does work with GET, but is not correct for http protocol
+
+//GET:
+// http://127.0.0.1:8000/?gimmeanswer=please&id=100
 
 
 import com.sun.net.httpserver.HttpServer;
