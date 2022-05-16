@@ -47,7 +47,7 @@ public class MyHandler implements HttpHandler {
         System.out.println("\n");
         String received = null;
         while (true) {
-            String s = null;
+            String s = "";
             try {
                 if ((s = br.readLine()) == null) break;
             } catch (IOException e) {
@@ -55,6 +55,7 @@ public class MyHandler implements HttpHandler {
             }
             System.out.println(s);
             received += s;
+
         }
         return received;
     }
