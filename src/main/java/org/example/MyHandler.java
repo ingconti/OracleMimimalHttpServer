@@ -22,8 +22,25 @@ public class MyHandler implements HttpHandler {
         String s = read(is); // .. read the request body
         System.out.println(s);
 
+        //String response = "MyJava Sample";
+        String response = process(s);
+
+        exchange.sendResponseHeaders(200, response.length());
+        OutputStream os = exchange.getResponseBody();
+        os.write(response.getBytes());
+        os.close();
     }
 
+
+
+    private String process( String body){
+
+        String[] splitted = body.split("&");
+        if (splitted.length == 0)
+            return "no data\n";
+
+        return "args: " + splitted.length + "\n";
+    }
 
 /*
     public void handle(HttpExchange t) throws IOException {
