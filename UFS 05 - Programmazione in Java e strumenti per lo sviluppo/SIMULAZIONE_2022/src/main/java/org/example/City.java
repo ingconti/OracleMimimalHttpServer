@@ -5,6 +5,18 @@ public class City {
     String name;
     Double temp;
 
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Double getTemp() {
+        return temp;
+    }
+
     @Override
     public String toString() {
         return "City{" +

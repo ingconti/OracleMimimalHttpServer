@@ -45,7 +45,7 @@ public class MyHandler implements HttpHandler {
                 new InputStreamReader(is));
 
         System.out.println("\n");
-        String received = null;
+        String received = "";
         while (true) {
             String s = "";
             try {

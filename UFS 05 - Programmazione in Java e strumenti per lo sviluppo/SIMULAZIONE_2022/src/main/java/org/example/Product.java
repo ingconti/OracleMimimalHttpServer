@@ -1,14 +1,12 @@
 package org.example;
 
 public class Product {
-    double cost;
     int id;
     String name;
     Double price;
     int quantity;
 
     public Product(int id, String name,Double price, int quantity) {
-        this.cost = cost;
         this.id = id;
         this.name = name;
         this.price = price;
@@ -18,11 +16,28 @@ public class Product {
     @Override
     public String toString() {
         return "Product{" +
-                "cost=" + cost +
                 ", id=" + id +
                 ", name='" + name + '\'' +
                 ", price=" + price +
                 ", quantity=" + quantity +
                 '}';
+    }
+
+
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public int getQuantity() {
+        return quantity;
     }
 }
