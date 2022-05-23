@@ -7,15 +7,25 @@ import java.io.*;
 import java.net.URI;
 
 public class MyHandler implements HttpHandler {
+
     @Override
     public void handle(HttpExchange exchange) throws IOException {
 
         InputStream is = exchange.getRequestBody();
+
         URI uri = exchange.getRequestURI();
+        System.out.println(uri);
+
+        String method = exchange.getRequestMethod();
+        System.out.println(method);
+
+        String s = read(is); // .. read the request body
+        System.out.println(s);
 
     }
 
-    /*
+
+/*
     public void handle(HttpExchange t) throws IOException {
         InputStream is = t.getRequestBody();
 
@@ -47,7 +57,9 @@ public class MyHandler implements HttpHandler {
         os.write(response.getBytes());
         os.close();
     }
+/*
 
+ */
     private String read(InputStream is) {
         BufferedReader br = new BufferedReader(
                 new InputStreamReader(is));
@@ -61,12 +73,10 @@ public class MyHandler implements HttpHandler {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            System.out.println(s);
             received += s;
 
         }
         return received;
     }
 
-*/
 }
