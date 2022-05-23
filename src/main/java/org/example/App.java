@@ -5,7 +5,7 @@ package org.example;
 // sample invocation:
 
 // POST:
-// curl -X POST "http://127.0.0.1:8000" -d "gimmeanswer=please&id=100"
+// curl -X POST "http://127.0.0.1:8000" -d "gimmeanswer=please&user=john"
 
 //GET:
 // http://127.0.0.1:8000/?gimmeanswer=please&id=100
@@ -25,7 +25,8 @@ public class App
         } catch (IOException e) {
             e.printStackTrace();
         }
-        //server.createContext("/applications/myapp", new MyHandler());
+
+        //Oracle code was: server.createContext("/applications/myapp", new MyHandler());
         server.createContext("/", new MyHandler());
         server.setExecutor(null); // creates a default executor
         server.start();
