@@ -39,7 +39,22 @@ public class MyHandler implements HttpHandler {
         if (splitted.length == 0)
             return "no data\n";
 
-        return "args: " + splitted.length + "\n";
+        //return "args: " + splitted.length + "\n";
+        String cmd = splitted[0].split("=")[0];
+        String options = splitted[0].split("=")[1];
+        String user = splitted[1].split("=")[1];
+
+        System.out.println(cmd);
+        System.out.println(options);
+
+        if (cmd.equals("gimmeanswer") &&
+                options.equals("please"))
+            return "Hello " + user + "\n";
+
+        if (cmd.equals("gimmeanswer"))
+            return "You are unpolite, " + user + "\n";
+
+        return "bad request";
     }
 
 /*
