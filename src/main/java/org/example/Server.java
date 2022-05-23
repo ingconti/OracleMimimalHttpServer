@@ -16,7 +16,7 @@ import com.sun.net.httpserver.HttpServer;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 
-public class App
+public class Server
 {
     public static void main( String[] args ) {
         HttpServer server = null;
